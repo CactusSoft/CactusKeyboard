@@ -15,6 +15,6 @@
   },
   "source_files": "CactusKeyboard/Classes/**/*",
   "platforms": {
-    "ios": "10.0"
+    "ios": "9.0"
   }
 }

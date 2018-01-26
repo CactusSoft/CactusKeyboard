@@ -638,7 +638,7 @@
 			};
 			name = Debug;
 		};
-		49A0AF40B4345FC169B5E9BDC3BA6109 /* Debug */ = {
+		315675416F707DB9FC5D7641E8427175 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FB7618B1104E2DCE7F0DD931D2CC8EBB /* CactusKeyboard.xcconfig */;
 			buildSettings = {
@@ -654,7 +654,39 @@
 				GCC_PREFIX_HEADER = "Target Support Files/CactusKeyboard/CactusKeyboard-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CactusKeyboard/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CactusKeyboard/CactusKeyboard.modulemap";
+				PRODUCT_NAME = CactusKeyboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		456609FEF382A799272B82268769EEA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB7618B1104E2DCE7F0DD931D2CC8EBB /* CactusKeyboard.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CactusKeyboard/CactusKeyboard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CactusKeyboard/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CactusKeyboard/CactusKeyboard.modulemap";
 				PRODUCT_NAME = CactusKeyboard;
@@ -886,38 +918,6 @@
 			};
 			name = Debug;
 		};
-		E90FD37849A8C8B63FF8987DD679A278 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB7618B1104E2DCE7F0DD931D2CC8EBB /* CactusKeyboard.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CactusKeyboard/CactusKeyboard-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CactusKeyboard/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CactusKeyboard/CactusKeyboard.modulemap";
-				PRODUCT_NAME = CactusKeyboard;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -933,8 +933,8 @@
 		631585A5647D8AEBB75CF3E5C23B0270 /* Build configuration list for PBXNativeTarget "CactusKeyboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				49A0AF40B4345FC169B5E9BDC3BA6109 /* Debug */,
-				E90FD37849A8C8B63FF8987DD679A278 /* Release */,
+				456609FEF382A799272B82268769EEA4 /* Debug */,
+				315675416F707DB9FC5D7641E8427175 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

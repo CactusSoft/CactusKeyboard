@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  CactusKeyboard: 27dcf604fbcaf4376c2551b14cae4345f4f3c1bf
+  CactusKeyboard: c6fbb10424d0a82eca2c19a84d8bf1ad3c8adf3a
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
 
 PODFILE CHECKSUM: a1d41bb673d51f0eb2b3c737f3f47814a3ce2777
