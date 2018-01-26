@@ -12,7 +12,7 @@ import CactusKeyboard
 Then add observer to yout ViewController:
 
 ```swift
-override func viewDidLoad() {
+    override func viewDidLoad() {
         super.viewDidLoad()
         
         addKeyboardObserver { [weak self] (visible, height) in
