@@ -10,12 +10,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../CactusKeyboard/Classes/CactusKeyboard.swift"
-            timestampString = "538669099.842438"
+            timestampString = "538672154.626235"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "85"
-            endingLineNumber = "85"
-            landmarkName = "addKeyboardObserver(_:)"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "removeKeyboardObserver()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -26,13 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../CactusKeyboard/Classes/CactusKeyboard.swift"
-            timestampString = "538669099.842809"
+            timestampString = "538672154.6263061"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "89"
-            endingLineNumber = "89"
-            landmarkName = "removeKeyboardObserver()"
-            landmarkType = "7">
+            startingLineNumber = "85"
+            endingLineNumber = "85">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
