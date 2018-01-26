@@ -9,7 +9,7 @@ Import CactusKeyboard in the file:
 import CactusKeyboard
 ```
 
-Then set localized variants of your strings as follows:
+Then add observer to yout ViewController:
 
 ```swift
 override func viewDidLoad() {
@@ -28,7 +28,7 @@ override func viewDidLoad() {
 
 ## Installation
 
-CactusLocalization is available through [CocoaPods](http://cocoapods.org). To install
+CactusKeyboard is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
