@@ -67,6 +67,7 @@ public final class CactusKeyboard {
 
 // MARK: - KeyboardCompletionProtocol
 extension CactusKeyboard: KeyboardCompletionProtocol {
+    
     public func addKeyboardObserver(for observer: UIViewController, _ completion: @escaping (Bool, CGFloat) -> Void) {
         observers.setObject(KeyboardObject(completion), forKey: "\(type(of: observer))" as NSString)
     }
@@ -74,6 +75,7 @@ extension CactusKeyboard: KeyboardCompletionProtocol {
     public func removeKeyboardObserver(for observer: UIViewController) {
         observers.removeObject(forKey: "\(observer)" as NSString)
     }
+    
 }
 
 // MARK: - Keyboard Observing
