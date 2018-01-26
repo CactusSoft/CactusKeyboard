@@ -22,21 +22,13 @@ Add just one line of code to observe keyboard visibility.
                        DESC
 
   s.homepage         = 'https://github.com/Maxim Vialykh/CactusKeyboard'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Maxim Vialykh' => 'maxim.vialykh@cactussoft.biz' }
   s.source           = { :git => 'https://github.com/Maxim Vialykh/CactusKeyboard.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/Umaks_vs'
 
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'CactusKeyboard/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'CactusKeyboard' => ['CactusKeyboard/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
