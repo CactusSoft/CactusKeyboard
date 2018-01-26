@@ -1,0 +1,6 @@
+framework module CactusKeyboard {
+  umbrella header "CactusKeyboard-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CactusKeyboard_Example' do
+  pod 'CactusKeyboard', :path => '../'
+
+  target 'CactusKeyboard_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
