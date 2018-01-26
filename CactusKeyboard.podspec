@@ -7,5 +7,5 @@ Pod::Spec.new do |spec|
   spec.summary      = 'CactusKeyboard - simple observing of keyboard visibility.'
   spec.source       = { :git => 'https://github.com/CactusSoft/CactusKeyboard.git', :tag => spec.version.to_s }
   spec.source_files = 'CactusKeyboard/Classes/**/*'
-  spec.ios.deployment_target = '10.0'
+  spec.ios.deployment_target = '9.0'
 end
