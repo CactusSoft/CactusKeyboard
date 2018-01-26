@@ -60,9 +60,9 @@
 /* Begin PBXFileReference section */
 		052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		120E6AE070FC494522BB9E4426E03BC1 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		120E6AE070FC494522BB9E4426E03BC1 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		248A9938DB03DF7B95A1ADB07C0C0508 /* CactusKeyboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CactusKeyboard.modulemap; sourceTree = "<group>"; };
+		248A9938DB03DF7B95A1ADB07C0C0508 /* CactusKeyboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CactusKeyboard.modulemap; sourceTree = "<group>"; };
 		2AB324376F2D93DA240F844208283FD1 /* CactusKeyboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CactusKeyboard-dummy.m"; sourceTree = "<group>"; };
 		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
@@ -75,7 +75,7 @@
 		514B3154B78D11F91D55D4BC26E257F2 /* Pods-CactusKeyboard_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CactusKeyboard_Example-umbrella.h"; sourceTree = "<group>"; };
 		52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		53DCA049844758C500D163928AB9E2F3 /* Pods-CactusKeyboard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CactusKeyboard_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5465031C4DD56420FACA7C4E90DC7698 /* CactusKeyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CactusKeyboard.framework; path = CactusKeyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5465031C4DD56420FACA7C4E90DC7698 /* CactusKeyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CactusKeyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		5D2EF87A987E41A83DB83F937DE9EE44 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6024F0162D36D0B578A7E13CF9AFD7DE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -84,21 +84,21 @@
 		6F548A559E6F3FA03843487CAA938A06 /* CactusKeyboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CactusKeyboard-prefix.pch"; sourceTree = "<group>"; };
 		73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		75C1B4222F7C5CDA0AB5E98A71694E0E /* Pods-CactusKeyboard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CactusKeyboard_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		772C83C39B71C2604A28ACC1194D8437 /* Pods-CactusKeyboard_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CactusKeyboard_Tests.modulemap"; sourceTree = "<group>"; };
+		772C83C39B71C2604A28ACC1194D8437 /* Pods-CactusKeyboard_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CactusKeyboard_Tests.modulemap"; sourceTree = "<group>"; };
 		79177E5F1979318A53BF3AF50869B98F /* Pods-CactusKeyboard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CactusKeyboard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		7CA6EC32718A36C1FE2401A4F1AE2A09 /* Pods-CactusKeyboard_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CactusKeyboard_Example.modulemap"; sourceTree = "<group>"; };
+		7CA6EC32718A36C1FE2401A4F1AE2A09 /* Pods-CactusKeyboard_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CactusKeyboard_Example.modulemap"; sourceTree = "<group>"; };
 		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		7EDD932EEA90A108FF998CE632306DC0 /* CactusKeyboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CactusKeyboard-umbrella.h"; sourceTree = "<group>"; };
-		823558E8AC8EB39D028DB5FBBEA227A3 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		823558E8AC8EB39D028DB5FBBEA227A3 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FD6F70743A7450E3978E684F4288D42 /* Pods-CactusKeyboard_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CactusKeyboard_Tests-dummy.m"; sourceTree = "<group>"; };
 		A27810809BAD71E4022600B21251449F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		A3AE53B00C82CE344CA8101E0598FB03 /* Pods-CactusKeyboard_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CactusKeyboard_Tests-resources.sh"; sourceTree = "<group>"; };
 		AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		ABB3077CB4AF0249603D87D90171F97B /* Pods-CactusKeyboard_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CactusKeyboard_Example-resources.sh"; sourceTree = "<group>"; };
 		ABF06BF74A8D41997E14E52A582DC311 /* Pods-CactusKeyboard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CactusKeyboard_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B89F70CDFFF98642BABBE16A24B63E79 /* Pods_CactusKeyboard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CactusKeyboard_Tests.framework; path = "Pods-CactusKeyboard_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B89F70CDFFF98642BABBE16A24B63E79 /* Pods_CactusKeyboard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CactusKeyboard_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		BA36070048AFD0B99BFB633B4534A369 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -110,7 +110,7 @@
 		DC94B2F04F5E0111C60615C75194D73B /* Pods-CactusKeyboard_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CactusKeyboard_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		E3FBC83892A5825CCCD8522470FF1875 /* Pods-CactusKeyboard_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CactusKeyboard_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EB68CF3DE7DEE6669FDF3196DE6AB3B2 /* Pods_CactusKeyboard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CactusKeyboard_Example.framework; path = "Pods-CactusKeyboard_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB68CF3DE7DEE6669FDF3196DE6AB3B2 /* Pods_CactusKeyboard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CactusKeyboard_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F580C19385255585ACA593224647C3B2 /* CactusKeyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CactusKeyboard.swift; path = CactusKeyboard/Classes/CactusKeyboard.swift; sourceTree = "<group>"; };
 		F6E9E51B759FD62C25C4AF3B6A98EB95 /* Pods-CactusKeyboard_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CactusKeyboard_Tests-umbrella.h"; sourceTree = "<group>"; };
 		FB7618B1104E2DCE7F0DD931D2CC8EBB /* CactusKeyboard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CactusKeyboard.xcconfig; sourceTree = "<group>"; };
@@ -199,7 +199,6 @@
 				1549F91FCD089822594C1F5DB8AB9E8F /* Support Files */,
 				99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */,
 			);
-			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -660,6 +659,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
@@ -783,6 +783,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_VERSION = 4.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;

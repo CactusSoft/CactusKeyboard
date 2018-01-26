@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		1733B86D0D2795EE9273E04F /* Pods_CactusKeyboard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CactusKeyboard_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		236EB083394D3C4E6F36379B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		236EB083394D3C4E6F36379B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* CactusKeyboard_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CactusKeyboard_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,8 +45,8 @@
 		BE6EB1AA3B77718F560082BF /* Pods_CactusKeyboard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CactusKeyboard_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEE91F7D8F59A54A83D30D70 /* Pods-CactusKeyboard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CactusKeyboard_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CactusKeyboard_Example/Pods-CactusKeyboard_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E8183C20D1CCE43752E06FC5 /* Pods-CactusKeyboard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CactusKeyboard_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CactusKeyboard_Example/Pods-CactusKeyboard_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EA97B50E8A0CC9600A99A104 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		EE60FE2A1830683A605DB26F /* CactusKeyboard.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CactusKeyboard.podspec; path = ../CactusKeyboard.podspec; sourceTree = "<group>"; };
+		EA97B50E8A0CC9600A99A104 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EE60FE2A1830683A605DB26F /* CactusKeyboard.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CactusKeyboard.podspec; path = ../CactusKeyboard.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -466,6 +466,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -511,6 +512,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
