@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.platform     = :ios, "10.0"
   s.source       = { :git => "https://github.com/CactusSoft/CactusKeyboard.git" }
-  s.source_files  = "Classes", "Classes/**/*.{swift}"
+  s.source_files  = "Classes", "Classes/**/*"
   s.exclude_files = "Classes/Exclude"
   
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
