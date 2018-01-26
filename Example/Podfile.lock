@@ -1,5 +1,5 @@
 PODS:
-  - CactusKeyboard (1.0.0)
+  - CactusKeyboard (1.0.1)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  CactusKeyboard: c6fbb10424d0a82eca2c19a84d8bf1ad3c8adf3a
+  CactusKeyboard: 972ee5e6bd886ead7fc876ed2918a06c8baa742f
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
 
 PODFILE CHECKSUM: a1d41bb673d51f0eb2b3c737f3f47814a3ce2777
