@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'CactusKeyboard'
-  spec.version      = '1.0.1'
+  spec.version      = '1.0.2'
   spec.license      = { :type => 'BSD' }
   spec.homepage     = 'https://github.com/CactusSoft/CactusKeyboard'
   spec.authors      = { 'Maxim Vialykh' => 'maxim.vialykh@cactussoft.biz' }

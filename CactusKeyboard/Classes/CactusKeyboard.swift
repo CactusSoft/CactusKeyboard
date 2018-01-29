@@ -69,7 +69,7 @@ public final class CactusKeyboard {
     }
     
     public func removeKeyboardObserver(for observer: UIViewController) {
-        observers.removeObject(forKey: "\(observer)" as NSString)
+        observers.removeObject(forKey: "\(type(of: observer))" as NSString)
     }
     
 }

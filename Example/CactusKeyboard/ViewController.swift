@@ -23,6 +23,7 @@ class ViewController: UIViewController {
     
     deinit {
         removeKeyboardObserver()
+        print("\(self) removeKeyboardObserver")
     }
 
     // MARK: - Actions
